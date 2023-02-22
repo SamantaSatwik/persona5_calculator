@@ -1,0 +1,46 @@
+User-agent: *
+Allow: /
+Crawl-delay: 0
+Sitemap: https://persona5.liteblogging.com/sitemap.xml
+
+User-agent: Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: MSNBot
+Allow: /
+
+User-agent: Yahoo
+Allow: /
+
+User-agent: Yahoo! Slurp
+Allow: /
+
+User-agent: Yahoo! Slurp blogs
+Allow: /
+
+User-agent: Ask Jeeves/Teoma
+Allow: /
+
+User-agent: Gigabot
+Allow: /
+
+User-agent: dmoz
+Allow: /
+
+User-agent: Nutch
+Allow: /
+
+User-agent: Baidu
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: MSNBot-media
+Allow: /
