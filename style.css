@@ -1,11 +1,39 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin);
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     text-align: center;
     margin-top: 0;
     margin-right: 0;
+}
+p {
+    font-size: 20px;
+}
+.blog {
+    padding: 20px;
+}
+h2 a {
+    font-size: 25px;
+}
+
+footer {
+    margin-top: 20px;
+    border: #020202 solid;
+    background-color: #2185d0;
+    padding: 10px;
+    
+}
+
+.blog h2 {
+    background-color: #022e4f;
+    color: #fff;
+    padding: 10px;
+}
+
+.blog h3 {
+    background-color: #d96506;
+    color: #fff;
+    padding: 10px;
 }
 
 a {
@@ -71,7 +99,7 @@ tr:hover td:last-child {
 }
 
 .infoTable th, .infoTable td {
-    border: 1px solid black;
+    border: 1px solid rgb(7, 2, 61);
     padding: 5px;
 }
 
@@ -105,7 +133,7 @@ tr:hover td:last-child {
 }
 
 .wk, .Weak { color: #db2828 !important; }
-.rs, .Resist { color: #2185d0 !important; }
+.rs, .Resist { color: #0a63a7 !important; }
 .nu, .Null { color: #b0b0b0 !important; }
 .rp, .Repel { color: #fbbd08 !important; }
 .ab, .Absorb { color: #21ba45 !important; }
@@ -159,7 +187,7 @@ tr:hover td:last-child {
     textarea,
     input,
     .ui.input input {
-        font-size: 16px;
+        font-size: 18px;
     }
     .ui.button.clear-button {
         padding: 1.4em 1.5em;
@@ -171,3 +199,4 @@ tr:hover td:last-child {
     justify-content: center;
     max-width: 50%;
 }
+
